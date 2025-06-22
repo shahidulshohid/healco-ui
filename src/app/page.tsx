@@ -1,8 +1,9 @@
+import LoginComponent from "@/components/auth/LoginComponent";
 
 export default function Home() {
   return (
     <div>
-      <h1>HealCo-UI</h1>
+      <LoginComponent/>
     </div>
   );
 }
