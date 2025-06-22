@@ -14,7 +14,7 @@ function Header() {
               width={36}
               height={36}
             />
-            <h2 className="text-60 text-[#1B1B1B]">HealCo</h2>
+            <h2 className="text-2xl font-semibold text-[#1B1B1B]">HealCo</h2>
           </div>
           <div>
             <Button variant="outline">
