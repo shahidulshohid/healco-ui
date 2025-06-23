@@ -14,10 +14,10 @@ type Inputs = {
     password: string;
 };
 
-export default function SignupComponent() {
+export default function SignupForm() {
     const [showPassword, setShowPassword] = useState<boolean>(false);
     const {
-        control,
+        // control, 
         register,
         handleSubmit,
         formState: { errors },
@@ -99,7 +99,7 @@ export default function SignupComponent() {
                         Sign Up
                     </button>
                     <div className="flex items-center justify-center gap-2 text-4 pt-3 pb-5">
-                        <span className="text-[#1A1A1A]">Don’t have an account? </span>
+                        <span className="text-[#1A1A1A]">Already have an account? </span>
                         <Link href="/" className="text-[#6551C1]"> Log In</Link>
                     </div>
                     {/* divider */}
