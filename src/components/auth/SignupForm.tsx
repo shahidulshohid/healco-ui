@@ -10,7 +10,7 @@ import Link from "next/link";
 
 type Inputs = {
     name: string;
-    phoneNumber: number;
+    phoneNumber: string;
     password: string;
 };
 
@@ -55,7 +55,7 @@ export default function SignupForm() {
                             Phone number
                         </label>
                         <input
-                            type="number"
+                            type="text"
                             className="w-full input text-4 text-[#D0D5DD] p-3 border rounded-full mt-1.5"
                             placeholder="Phone number"
                             {...register("phoneNumber", { required: "Phone Number is required" })}
