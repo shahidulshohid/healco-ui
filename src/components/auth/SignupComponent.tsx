@@ -82,7 +82,7 @@ export default function SignupComponent() {
                                 {errors.password.message}
                             </span>
                         )}
-                        <span onClick={(() => setShowPassword(!showPassword))} className="absolute right-0 top-9 h-full px-3 py-2 hover:bg-transparent">
+                        <span onClick={() => setShowPassword(!showPassword)} className="absolute right-0 top-9 h-full px-3 py-2 hover:bg-transparent">
                             {
                                 showPassword ? (
                                     <EyeOff className="h-6 w-6 text-gray-700" />
